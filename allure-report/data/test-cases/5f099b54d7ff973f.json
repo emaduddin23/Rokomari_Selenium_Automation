@@ -1,0 +1,114 @@
+{
+  "uid" : "5f099b54d7ff973f",
+  "name" : "homePageTest",
+  "fullName" : "test.Home_test.homePageTest",
+  "historyId" : "71a14d77ec3b3c869384f83abcc46699",
+  "time" : {
+    "start" : 1675093206284,
+    "stop" : 1675093234686,
+    "duration" : 28402
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1675093202954,
+      "stop" : 1675093206228,
+      "duration" : 3274
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "77a47eaa4fc1a4f8",
+      "name" : "HomePage",
+      "source" : "77a47eaa4fc1a4f8.png",
+      "type" : "image/png",
+      "size" : 1116753
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1675093234694,
+      "stop" : 1675093235328,
+      "duration" : 634
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.Home_test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.Home_test"
+  }, {
+    "name" : "testMethod",
+    "value" : "homePageTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.Home_test"
+  }, {
+    "name" : "host",
+    "value" : "EMAD"
+  }, {
+    "name" : "thread",
+    "value" : "11088@EMAD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f099b54d7ff973f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1358 @@
+{
+  "uid" : "ed1359f366ccf75d",
+  "name" : "run",
+  "fullName" : "test.Logintest.run",
+  "historyId" : "18da0b4f6fcfd703d845472607ef5ca0",
+  "time" : {
+    "start" : 1674923117961,
+    "stop" : 1674923180952,
+    "duration" : 62991
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 142,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1674923115256,
+      "stop" : 1674923117906,
+      "duration" : 2650
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1674923180959,
+      "stop" : 1674923181729,
+      "duration" : 770
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.Logintest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.Logintest"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.Logintest"
+  }, {
+    "name" : "host",
+    "value" : "EMAD"
+  }, {
+    "name" : "thread",
+    "value" : "7248@EMAD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a38e5eced3d6608",
+      "status" : "broken",
+      "statusDetails" : "The element reference of <button class=\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\" type=\"button\"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [1f6bb114-884f-45a5-9963-b4f52ad4abd6, clickElement {id=ab60e003-902c-458f-b01d-8fce3a4b9100}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:49871, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18612, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:49871/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on WINDOWS (1f6bb114-884f-45a5-9963-b4f52ad4abd6)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 1f6bb114-884f-45a5-9963-b4f52ad4abd6",
+      "time" : {
+        "start" : 1674923079574,
+        "stop" : 1674923097031,
+        "duration" : 17457
+      }
+    }, {
+      "uid" : "4a5a59932f08d48e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Place Order'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:58640, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12544, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58640/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: da82ef80-8de0-43ef-a5a1-a63b95eac4e8",
+      "time" : {
+        "start" : 1674922995768,
+        "stop" : 1674923046930,
+        "duration" : 51162
+      }
+    }, {
+      "uid" : "c9849171c3833024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674895786783,
+        "stop" : 1674895846935,
+        "duration" : 60152
+      }
+    }, {
+      "uid" : "af2bad7fac7422a1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='identifierId'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:57395, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6748, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:57395/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 686cdd0e-e924-48cf-9f8a-679bb313e9d9",
+      "time" : {
+        "start" : 1674895664313,
+        "stop" : 1674895723610,
+        "duration" : 59297
+      }
+    }, {
+      "uid" : "792a4c787d2fdad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674894424091,
+        "stop" : 1674894474700,
+        "duration" : 50609
+      }
+    }, {
+      "uid" : "d6d3198025a117df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674894303748,
+        "stop" : 1674894365889,
+        "duration" : 62141
+      }
+    }, {
+      "uid" : "c0fc8665a1bf63ea",
+      "status" : "broken",
+      "statusDetails" : "Element <button class=\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\" type=\"button\"> could not be scrolled into view\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [0821b3a4-1ae0-4bd2-99ff-df5d4a9312d9, clickElement {id=63c463f0-7305-439c-8a32-f8491720b4c5}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:61349, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11212, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61349/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on WINDOWS (0821b3a4-1ae0-4bd2-99ff-df5d4a9312d9)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 0821b3a4-1ae0-4bd2-99ff-df5d4a9312d9",
+      "time" : {
+        "start" : 1674894274804,
+        "stop" : 1674894290639,
+        "duration" : 15835
+      }
+    }, {
+      "uid" : "31a19bf2f7a1bd38",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: cod (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:56177, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12176, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56177/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 3268eccc-af09-4230-8f36-9e94a3720fea",
+      "time" : {
+        "start" : 1674894085318,
+        "stop" : 1674894161967,
+        "duration" : 76649
+      }
+    }, {
+      "uid" : "2ae750a771c594b5",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate option with text: নোয়াপতং ইউনিয়ন\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1674893936107,
+        "stop" : 1674893996766,
+        "duration" : 60659
+      }
+    }, {
+      "uid" : "40780fe3cc25244c",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate option with text: নোয়াপতং ইউনিয়ন\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1674893751031,
+        "stop" : 1674893806294,
+        "duration" : 55263
+      }
+    }, {
+      "uid" : "1eb31087e86f6f13",
+      "status" : "broken",
+      "statusDetails" : "Element <button class=\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\" type=\"button\"> could not be scrolled into view\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [96175726-2385-4043-9b63-9552dbbc3451, clickElement {id=49ec60f2-4cbf-4699-939b-68306a0f4089}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:65178, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15264, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:65178/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on WINDOWS (96175726-2385-4043-9b63-9552dbbc3451)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 96175726-2385-4043-9b63-9552dbbc3451",
+      "time" : {
+        "start" : 1674893602816,
+        "stop" : 1674893618883,
+        "duration" : 16067
+      }
+    }, {
+      "uid" : "cd3dccc0df52a68e",
+      "status" : "broken",
+      "statusDetails" : "Element <button class=\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\" type=\"button\"> could not be scrolled into view\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [527a54a4-314f-41ff-b26c-72448eaa06bd, clickElement {id=174422e8-9184-43e2-8461-f2ede5644cdf}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:52023, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2300, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:52023/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on WINDOWS (527a54a4-314f-41ff-b26c-72448eaa06bd)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 527a54a4-314f-41ff-b26c-72448eaa06bd",
+      "time" : {
+        "start" : 1674893579688,
+        "stop" : 1674893594549,
+        "duration" : 14861
+      }
+    }, {
+      "uid" : "29601203ed57a77e",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate option with text: নোয়াপতং ইউনিয়ন\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1674893398055,
+        "stop" : 1674893443147,
+        "duration" : 45092
+      }
+    }, {
+      "uid" : "21ad1a12ba975d1e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Go to Shipping Page'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:58187, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16428, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 142ea26c-5bea-4d3d-85f4-40fe98787b20",
+      "time" : {
+        "start" : 1674893021225,
+        "stop" : 1674893065026,
+        "duration" : 43801
+      }
+    }, {
+      "uid" : "a906dddff68095f7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: (//input[@id='name'])[1] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:52113, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17104, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:52113/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f708e746-e6e5-4adf-ad08-b8b6dc68ebaf",
+      "time" : {
+        "start" : 1674891546569,
+        "stop" : 1674891592202,
+        "duration" : 45633
+      }
+    }, {
+      "uid" : "ab67df536941374f",
+      "status" : "broken",
+      "statusDetails" : "Element <button class=\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\" type=\"button\"> could not be scrolled into view\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [869100cf-7ae7-42a7-a780-804d5e7d95dd, clickElement {id=7e0c4643-9e40-49f8-abb9-bfb6b6b727f7}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:64187, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7484, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:64187/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on WINDOWS (869100cf-7ae7-42a7-a780-804d5e7d95dd)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 869100cf-7ae7-42a7-a780-804d5e7d95dd",
+      "time" : {
+        "start" : 1674891504377,
+        "stop" : 1674891518782,
+        "duration" : 14405
+      }
+    }, {
+      "uid" : "32b2309270325e27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674888218501,
+        "stop" : 1674888254763,
+        "duration" : 36262
+      }
+    }, {
+      "uid" : "a84827e0b0315a78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674887974642,
+        "stop" : 1674888021583,
+        "duration" : 46941
+      }
+    }, {
+      "uid" : "1239b86a78e0fb1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674887901064,
+        "stop" : 1674887943243,
+        "duration" : 42179
+      }
+    }, {
+      "uid" : "d7a5287a1a25fd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674885120308,
+        "stop" : 1674885151760,
+        "duration" : 31452
+      }
+    }, {
+      "uid" : "8ee20941b412545c",
+      "status" : "broken",
+      "statusDetails" : "The element reference of <button class=\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\" type=\"button\"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [692a5c3d-5539-4a64-b227-8b8093d97ede, clickElement {id=bd2418c5-183d-4a93-902e-39e13eb06cca}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:50404, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18196, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:50404/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on WINDOWS (692a5c3d-5539-4a64-b227-8b8093d97ede)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 692a5c3d-5539-4a64-b227-8b8093d97ede",
+      "time" : {
+        "start" : 1674885089339,
+        "stop" : 1674885106546,
+        "duration" : 17207
+      }
+    }, {
+      "uid" : "4bd158804eea37f2",
+      "status" : "broken",
+      "statusDetails" : "Element <a href=\"/book/author/1/humayun-ahmed?categoryIds=677&categoryIds=1321&priceRange=0to45100&discountRange=0to25&page=2\"> could not be scrolled into view\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [751f57f2-cbf1-4ad0-b96c-dc85e5a42ab2, clickElement {id=68ec07d5-2cc5-4b82-a4e4-83e185970cf0}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:49528, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12608, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:49528/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on WINDOWS (751f57f2-cbf1-4ad0-b96c-dc85e5a42ab2)] -> xpath: //a[normalize-space()='Next']]\nSession ID: 751f57f2-cbf1-4ad0-b96c-dc85e5a42ab2",
+      "time" : {
+        "start" : 1674882272590,
+        "stop" : 1674882306558,
+        "duration" : 33968
+      }
+    }, {
+      "uid" : "65b661105fbe8931",
+      "status" : "broken",
+      "statusDetails" : "Element <button class=\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\" type=\"button\"> is not clickable at point (782,657) because another element <div class=\"ANuIbb IdAqtf\"> obscures it\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [3feb0bc1-d134-439a-b395-15ecc9cc9511, clickElement {id=1dec6595-220f-4216-9fb8-e1cd28056379}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:57365, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7320, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:57365/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on WINDOWS (3feb0bc1-d134-439a-b395-15ecc9cc9511)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 3feb0bc1-d134-439a-b395-15ecc9cc9511",
+      "time" : {
+        "start" : 1674882233954,
+        "stop" : 1674882251059,
+        "duration" : 17105
+      }
+    }, {
+      "uid" : "54b971cc68850f5c",
+      "status" : "broken",
+      "statusDetails" : "Element <a href=\"/book/author/1/humayun-ahmed?categoryIds=677&categoryIds=1321&priceRange=0to45100&discountRange=0to25&page=2\"> could not be scrolled into view\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [fb424d50-c83e-4a70-9dee-a0296815f3ef, clickElement {id=c022a34f-16b2-4009-a2e7-ba518bb2272e}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:52416, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8188, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:52416/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nElement: [[FirefoxDriver: firefox on WINDOWS (fb424d50-c83e-4a70-9dee-a0296815f3ef)] -> xpath: //a[normalize-space()='Next']]\nSession ID: fb424d50-c83e-4a70-9dee-a0296815f3ef",
+      "time" : {
+        "start" : 1674882130786,
+        "stop" : 1674882186521,
+        "duration" : 55735
+      }
+    }, {
+      "uid" : "3463656da84d0532",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //button[@product-id='1333'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:57042, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3704, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:57042/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b04d4433-e383-48e0-995b-1a9ff58dc387",
+      "time" : {
+        "start" : 1674577396444,
+        "stop" : 1674577526218,
+        "duration" : 129774
+      }
+    }, {
+      "uid" : "7055951a54c898ec",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@title='আমাদের শাদা বাড়ি হুমায়ূন আহমেদ']//div[1]//div[1]//button[1] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:61131, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5856, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61131/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: cb0ece52-e306-4bb6-a906-0c99a8d34d43",
+      "time" : {
+        "start" : 1674576987570,
+        "stop" : 1674577049051,
+        "duration" : 61481
+      }
+    }, {
+      "uid" : "d0ae6857ff8e273b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@title='আমাদের শাদা বাড়ি হুমায়ূন আহমেদ']//div[1]//div[1]//button[1] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:65242, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12876, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:65242/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c1460305-a291-43e8-b7eb-1b4a6dd15299",
+      "time" : {
+        "start" : 1674553800863,
+        "stop" : 1674553867537,
+        "duration" : 66674
+      }
+    }, {
+      "uid" : "9a67e0fc20b2341b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@title='আমাদের শাদা বাড়ি হুমায়ূন আহমেদ']//div[1]//div[1]//button[1] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:56239, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6876, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56239/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 150594f4-a9b7-4bfa-8b97-671e6cb112a3",
+      "time" : {
+        "start" : 1674553232923,
+        "stop" : 1674553301929,
+        "duration" : 69006
+      }
+    }, {
+      "uid" : "7b52c0c4b3c0386d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@title='আমাদের শাদা বাড়ি হুমায়ূন আহমেদ']//div[1]//div[1]//button[1] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:57937, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19404, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:57937/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 25a5e101-e011-4239-b992-5a022dcd5d66",
+      "time" : {
+        "start" : 1674553027533,
+        "stop" : 1674553092473,
+        "duration" : 64940
+      }
+    }, {
+      "uid" : "518ca7b734555bc1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@title='আমাদের শাদা বাড়ি হুমায়ূন আহমেদ']//div[1]//div[1]//button[1] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:52760, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6188, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:52760/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b6455743-c5ef-4301-9297-48cb8accb1aa",
+      "time" : {
+        "start" : 1674550407691,
+        "stop" : 1674550480427,
+        "duration" : 72736
+      }
+    }, {
+      "uid" : "b65986625f6ec245",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@title='আমাদের শাদা বাড়ি হুমায়ূন আহমেদ']//div[1]//div[1]//button[1] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0, moz:accessibilityChecks: false, moz:buildID: 20230112150232, moz:debuggerAddress: 127.0.0.1:50555, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11820, moz:profile: C:\\Users\\User\\AppData\\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:50555/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 12c9ad39-b7f8-45b8-94a9-16a960075ce1",
+      "time" : {
+        "start" : 1674540615973,
+        "stop" : 1674540666210,
+        "duration" : 50237
+      }
+    }, {
+      "uid" : "898d8d9e0192a46b",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=109.0.5414.75)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ed326de470027f78cbfa207130bf0d3f, clickElement {id=a954ecc8-3cbc-4cad-8bcf-cf3e2a974220}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:9083}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:9083/devtool..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (ed326de470027f78cbfa207130bf0d3f)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: ed326de470027f78cbfa207130bf0d3f",
+      "time" : {
+        "start" : 1674540389468,
+        "stop" : 1674540400729,
+        "duration" : 11261
+      }
+    }, {
+      "uid" : "6c817935b8b40968",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: div[id='js--entry-popup'] i[class='ion-close-round'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8988}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8988/devtool..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9e8f96340633694f8c0afd0d43034687",
+      "time" : {
+        "start" : 1674540333005,
+        "stop" : 1674540354343,
+        "duration" : 21338
+      }
+    }, {
+      "uid" : "80083093f04b2460",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.126)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [19e0ee0a2acb6d765b1571457d2bb3a9, clickElement {id=6bbb90fd-39fe-4b98-a9f1-6cf7ea23e88b}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4040}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4040/devtool..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (19e0ee0a2acb6d765b1571457d2bb3a9)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 19e0ee0a2acb6d765b1571457d2bb3a9",
+      "time" : {
+        "start" : 1673800182302,
+        "stop" : 1673800202629,
+        "duration" : 20327
+      }
+    }, {
+      "uid" : "a9d7a556eacfaa90",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.126)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [255ccb317c78dc8829684f3070a007ea, clickElement {id=a14fc399-7300-44cc-83b3-f1d99dfc5c92}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:3417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3417/devtool..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (255ccb317c78dc8829684f3070a007ea)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 255ccb317c78dc8829684f3070a007ea",
+      "time" : {
+        "start" : 1673799906072,
+        "stop" : 1673799922668,
+        "duration" : 16596
+      }
+    }, {
+      "uid" : "8500a8bcf9050aa",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.126)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a7ef9b48a88832f2905ca3d8c4c0bead, clickElement {id=3a3dc052-3465-4380-ab30-2a6d7dd7d0f1}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:3353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3353/devtool..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (a7ef9b48a88832f2905ca3d8c4c0bead)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: a7ef9b48a88832f2905ca3d8c4c0bead",
+      "time" : {
+        "start" : 1673799880282,
+        "stop" : 1673799893554,
+        "duration" : 13272
+      }
+    }, {
+      "uid" : "37ef08c62bebf2c4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: btn.home-details-btn.btn-block[href='/book/1333/amader-shada-bari'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8813/devtool..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 36c3128a24d78ef2841351a93b2b15e5",
+      "time" : {
+        "start" : 1673541987017,
+        "stop" : 1673542073268,
+        "duration" : 86251
+      }
+    }, {
+      "uid" : "802d1b77e6a42073",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: btn.cart-btn.js--add-to-cart[product-id='1327'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8585/devtool..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4b4f3ce26ac7f38985426d1cbb36b04f",
+      "time" : {
+        "start" : 1673541827796,
+        "stop" : 1673541905668,
+        "duration" : 77872
+      }
+    }, {
+      "uid" : "34ac2cb22ed6f77e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:11271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11271/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5ad2a04b2897d9be97dbd88fc85fcb36",
+      "time" : {
+        "start" : 1673451952347,
+        "stop" : 1673451990247,
+        "duration" : 37900
+      }
+    }, {
+      "uid" : "b68f4e18f9988fa7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: btn.cart-btn.js--add-to-cart[product-id='1327'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:10540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10540/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a5a9bcb0db75a499af387bf57752fdc1",
+      "time" : {
+        "start" : 1673451663016,
+        "stop" : 1673451697470,
+        "duration" : 34454
+      }
+    }, {
+      "uid" : "2c0eabe632ebab34",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:10411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10411/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 782ded953909c2f66075e5e8a543e071",
+      "time" : {
+        "start" : 1673451592310,
+        "stop" : 1673451633918,
+        "duration" : 41608
+      }
+    }, {
+      "uid" : "a5d180d3eafc7d00",
+      "status" : "broken",
+      "statusDetails" : "no such alert\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4952204530626fb115a283fbf3d3a647, getAlertText {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:10023}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10023/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4952204530626fb115a283fbf3d3a647",
+      "time" : {
+        "start" : 1673451363092,
+        "stop" : 1673451371301,
+        "duration" : 8209
+      }
+    }, {
+      "uid" : "19b83e90fc876f09",
+      "status" : "broken",
+      "statusDetails" : "no such alert\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [504e5e5bdc1d20e56b5f231aac11cfad, getAlertText {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:9900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:9900/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 504e5e5bdc1d20e56b5f231aac11cfad",
+      "time" : {
+        "start" : 1673451310565,
+        "stop" : 1673451332649,
+        "duration" : 22084
+      }
+    }, {
+      "uid" : "55e2fdf2d4b982c",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e75a4c8cf13f2f4de833ce2ae70df433, clickElement {id=2ed8e534-6abc-4544-82d8-dd15b8a461f6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:9508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:9508/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (e75a4c8cf13f2f4de833ce2ae70df433)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: e75a4c8cf13f2f4de833ce2ae70df433",
+      "time" : {
+        "start" : 1673451118230,
+        "stop" : 1673451129856,
+        "duration" : 11626
+      }
+    }, {
+      "uid" : "e1eacc168e87cb2d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for alert to be present (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:9170}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:9170/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c7623ae0a0cf5327dcfdd8d785c5e54d",
+      "time" : {
+        "start" : 1673450946611,
+        "stop" : 1673450997187,
+        "duration" : 50576
+      }
+    }, {
+      "uid" : "bf931903154c78a3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:9038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:9038/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1a4e7f97ab37c5704698c511f61b4d64",
+      "time" : {
+        "start" : 1673450867585,
+        "stop" : 1673450892309,
+        "duration" : 24724
+      }
+    }, {
+      "uid" : "c3ec9eab6aa547ac",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: btn.cart-btn.js--add-to-cart[product-id='1327'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:2295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:2295/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c13e9d820a388ac273bc7209231c58ce",
+      "time" : {
+        "start" : 1673107546814,
+        "stop" : 1673107575129,
+        "duration" : 28315
+      }
+    }, {
+      "uid" : "b0e9ce6396e75053",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673107416484,
+        "stop" : 1673107443333,
+        "duration" : 26849
+      }
+    }, {
+      "uid" : "56d367bcb04d914d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: btn.cart-btn.js--add-to-cart.active (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:1685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1685/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1164bb6283e2e26af078a3585025e80b",
+      "time" : {
+        "start" : 1673107276452,
+        "stop" : 1673107305308,
+        "duration" : 28856
+      }
+    }, {
+      "uid" : "db6687635979bf46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673107169752,
+        "stop" : 1673107193586,
+        "duration" : 23834
+      }
+    }, {
+      "uid" : "6da8838d814291ea",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: .btn.cart-btn.js--add-to-cart[product-id='1168'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:1126}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1126/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6bd6481648e0c7cb67da7fbc028c2fae",
+      "time" : {
+        "start" : 1673106959206,
+        "stop" : 1673107007873,
+        "duration" : 48667
+      }
+    }, {
+      "uid" : "707b26de73d441e3",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1215, 6210)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [193964009a9bc0f714ca3f74114325c2, clickElement {id=eedbda69-254f-490d-a852-febdece04e23}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:9637}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:9637/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (193964009a9bc0f714ca3f74114325c2)] -> link text: Next]\nSession ID: 193964009a9bc0f714ca3f74114325c2",
+      "time" : {
+        "start" : 1672938539419,
+        "stop" : 1672938560134,
+        "duration" : 20715
+      }
+    }, {
+      "uid" : "e5f4dc4998804d55",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1215, 6210)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [816e9a5d3f5ae34f92a65bfbf7ee075c, clickElement {id=64a3fe42-5eb1-4c25-9895-92691a5e3d1f}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:9461}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:9461/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (816e9a5d3f5ae34f92a65bfbf7ee075c)] -> link text: Next]\nSession ID: 816e9a5d3f5ae34f92a65bfbf7ee075c",
+      "time" : {
+        "start" : 1672938424962,
+        "stop" : 1672938447394,
+        "duration" : 22432
+      }
+    }, {
+      "uid" : "a8e806e88a5e63ec",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1215, 6162)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [abc06ec311aaca0cf6d8c9116af30432, clickElement {id=23ff9c41-472a-42e7-aa99-47d62052cd46}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8999/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (abc06ec311aaca0cf6d8c9116af30432)] -> link text: Next]\nSession ID: abc06ec311aaca0cf6d8c9116af30432",
+      "time" : {
+        "start" : 1672938007786,
+        "stop" : 1672938027173,
+        "duration" : 19387
+      }
+    }, {
+      "uid" : "b658217f0b750038",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672937899342,
+        "stop" : 1672937934266,
+        "duration" : 34924
+      }
+    }, {
+      "uid" : "e58333849d2688de",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: .btn.cart-btn.js--add-to-cart[product-id='1168'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:7652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:7652/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e4886309ff7f2675365d57f12c305bb3",
+      "time" : {
+        "start" : 1672937018455,
+        "stop" : 1672937065732,
+        "duration" : 47277
+      }
+    }, {
+      "uid" : "39d9fc17666a7bc9",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: .btn.cart-btn.js--add-to-cart[product-id='1168'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:7497}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:7497/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 811ae00be79544ebd79e1356f2ccd5b1",
+      "time" : {
+        "start" : 1672936925482,
+        "stop" : 1672936973810,
+        "duration" : 48328
+      }
+    }, {
+      "uid" : "415c2aa1182b7d64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672936259230,
+        "stop" : 1672936277406,
+        "duration" : 18176
+      }
+    }, {
+      "uid" : "5f4b16d55b7a9026",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672935885211,
+        "stop" : 1672935905017,
+        "duration" : 19806
+      }
+    }, {
+      "uid" : "86ffeea86c3acb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672935762473,
+        "stop" : 1672935782796,
+        "duration" : 20323
+      }
+    }, {
+      "uid" : "998d07b5b6f80bad",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ef07cecd5b6456704a7ad5fc1768bb46, clickElement {id=174d656b-dd90-4098-b909-cd9ead467b82}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5668}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5668/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (ef07cecd5b6456704a7ad5fc1768bb46)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: ef07cecd5b6456704a7ad5fc1768bb46",
+      "time" : {
+        "start" : 1672935615277,
+        "stop" : 1672935626381,
+        "duration" : 11104
+      }
+    }, {
+      "uid" : "c7cc488cd450fd6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672935523133,
+        "stop" : 1672935544796,
+        "duration" : 21663
+      }
+    }, {
+      "uid" : "f76887bf2f540497",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: div[id='js--entry-popup'] i[class='ion-close-round'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5441/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fc50765a2e8a5247120c0bfccb2937c2",
+      "time" : {
+        "start" : 1672935432025,
+        "stop" : 1672935483702,
+        "duration" : 51677
+      }
+    }, {
+      "uid" : "c7bed45d7c7bddb9",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [908709577dc31125a5f151c037bb1608, clickElement {id=01c3c4a0-3ff9-4eb0-8d9a-4d81811167e1}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5359}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5359/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (908709577dc31125a5f151c037bb1608)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 908709577dc31125a5f151c037bb1608",
+      "time" : {
+        "start" : 1672935398973,
+        "stop" : 1672935410508,
+        "duration" : 11535
+      }
+    }, {
+      "uid" : "875fa8a416070420",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1105, 6245)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b59d72d292c44ce5043fea36ad4f0e8d, clickElement {id=a40c2027-822f-44b4-9c6b-314107f23301}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:2258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:2258/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (b59d72d292c44ce5043fea36ad4f0e8d)] -> link text: 2]\nSession ID: b59d72d292c44ce5043fea36ad4f0e8d",
+      "time" : {
+        "start" : 1672926419477,
+        "stop" : 1672926438983,
+        "duration" : 19506
+      }
+    }, {
+      "uid" : "744b93448c461eea",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1105, 6245)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4249e52ffbb54780cc51dbaa8c82d20b, clickElement {id=cc4d5560-5a8c-4746-9e66-255aac7d1ca6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:2102}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:2102/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (4249e52ffbb54780cc51dbaa8c82d20b)] -> link text: 2]\nSession ID: 4249e52ffbb54780cc51dbaa8c82d20b",
+      "time" : {
+        "start" : 1672926340890,
+        "stop" : 1672926361980,
+        "duration" : 21090
+      }
+    }, {
+      "uid" : "615d129d9c544b66",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: div[id='js--entry-popup'] i[class='ion-close-round'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:1856}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1856/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3a718d546150872beadee34168b32339",
+      "time" : {
+        "start" : 1672926193797,
+        "stop" : 1672926242448,
+        "duration" : 48651
+      }
+    }, {
+      "uid" : "4cad4a7860750953",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: div[id='js--entry-popup'] i[class='ion-close-round'] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1672926147071,
+        "stop" : 1672926187384,
+        "duration" : 40313
+      }
+    }, {
+      "uid" : "edfb91cb19d9b005",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: current (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:14309}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:14309/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3a09f457234ce78c95f787b0a0916db6",
+      "time" : {
+        "start" : 1672925360280,
+        "stop" : 1672925410303,
+        "duration" : 50023
+      }
+    }, {
+      "uid" : "382f887b2b8fc985",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1105, 6162)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2568e1c06ce5c59274471865b9cf1770, clickElement {id=2a5a0323-ccf2-4500-b0c6-15cfc8855e88}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:13954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:13954/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2568e1c06ce5c59274471865b9cf1770)] -> link text: 2]\nSession ID: 2568e1c06ce5c59274471865b9cf1770",
+      "time" : {
+        "start" : 1672925264488,
+        "stop" : 1672925285017,
+        "duration" : 20529
+      }
+    }, {
+      "uid" : "5e673f8086ce74a7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: div[id='js--entry-popup'] i[class='ion-close-round'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:13775}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:13775/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f038df0140912fbfb00d390819f60139",
+      "time" : {
+        "start" : 1672925172640,
+        "stop" : 1672925221574,
+        "duration" : 48934
+      }
+    }, {
+      "uid" : "4d7897d1950fb267",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1215, 5073)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [44197bd7e2b56c6100ee26c888403704, clickElement {id=2a1a7fe8-9a71-4796-9bce-6eb4967c603c}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:10145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10145/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (44197bd7e2b56c6100ee26c888403704)] -> link text: Next]\nSession ID: 44197bd7e2b56c6100ee26c888403704",
+      "time" : {
+        "start" : 1672922435031,
+        "stop" : 1672922455893,
+        "duration" : 20862
+      }
+    }, {
+      "uid" : "420649f177ffe8fb",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1138, 6289)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3bfb17d586bbcb92995c9b37e69f0000, clickElement {id=529b14a1-18c7-47f8-8bc5-374fc26c7e14}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:9780}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:9780/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (3bfb17d586bbcb92995c9b37e69f0000)] -> css selector: div[class='browse-page'] a:nth-child(4)]\nSession ID: 3bfb17d586bbcb92995c9b37e69f0000",
+      "time" : {
+        "start" : 1672922226380,
+        "stop" : 1672922247884,
+        "duration" : 21504
+      }
+    }, {
+      "uid" : "f0e5b36f4473f754",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //a[normalize-space()='Sign in'] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1672922202514,
+        "stop" : 1672922234740,
+        "duration" : 32226
+      }
+    }, {
+      "uid" : "cb90bcfebbfad811",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1138, 6289)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [af309fea8d96070b6fa69c493308b5be, clickElement {id=f807214c-78ad-4310-a1bc-5defac646456}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:9194}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:9194/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (af309fea8d96070b6fa69c493308b5be)] -> css selector: div[class='browse-page'] a:nth-child(4)]\nSession ID: af309fea8d96070b6fa69c493308b5be",
+      "time" : {
+        "start" : 1672921927876,
+        "stop" : 1672921948151,
+        "duration" : 20275
+      }
+    }, {
+      "uid" : "99bd6f4721905d5e",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [33056507d0fe9ee43119bcf1811b29c5, clickElement {id=09febb4c-1c5d-4311-b83b-75a9a2fdaa46}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4865}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4865/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (33056507d0fe9ee43119bcf1811b29c5)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 33056507d0fe9ee43119bcf1811b29c5",
+      "time" : {
+        "start" : 1672760876489,
+        "stop" : 1672760891110,
+        "duration" : 14621
+      }
+    }, {
+      "uid" : "ff28ee347d4bff85",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8373773b01f43e9cbe83f728a0a238d5, clickElement {id=2531310e-90a8-4e15-bb53-1bd0398b04a8}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4682/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (8373773b01f43e9cbe83f728a0a238d5)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 8373773b01f43e9cbe83f728a0a238d5",
+      "time" : {
+        "start" : 1672760787018,
+        "stop" : 1672760802660,
+        "duration" : 15642
+      }
+    }, {
+      "uid" : "aaeee0e222cca421",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2091eb83e75746d0db8a99f783c2034b, clickElement {id=df2b91ab-55cb-4dac-93f5-2bd5e41d1eb3}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4552}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4552/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2091eb83e75746d0db8a99f783c2034b)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 2091eb83e75746d0db8a99f783c2034b",
+      "time" : {
+        "start" : 1672760758178,
+        "stop" : 1672760773707,
+        "duration" : 15529
+      }
+    }, {
+      "uid" : "6a38748097e00758",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: rok-filter-categoryIds-677 (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4133}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4133/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 30423675d61a237211fd5907ec47acc6",
+      "time" : {
+        "start" : 1672760559975,
+        "stop" : 1672760614646,
+        "duration" : 54671
+      }
+    }, {
+      "uid" : "ba69a2d0f1edbd3c",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [647bd896aa88a76b4dd0d0176592e4b8, clickElement {id=a1ed54f2-745c-479d-a9e5-c2d34a8081d6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:3969}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3969/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (647bd896aa88a76b4dd0d0176592e4b8)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 647bd896aa88a76b4dd0d0176592e4b8",
+      "time" : {
+        "start" : 1672760495531,
+        "stop" : 1672760510883,
+        "duration" : 15352
+      }
+    }, {
+      "uid" : "b338a6dff3c2f749",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d8608f40360596c5c00d69ebe9c1bc44, clickElement {id=3431c4a6-754b-41ae-8897-ea16ac48dfa5}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:3838}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3838/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (d8608f40360596c5c00d69ebe9c1bc44)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: d8608f40360596c5c00d69ebe9c1bc44",
+      "time" : {
+        "start" : 1672760465857,
+        "stop" : 1672760481380,
+        "duration" : 15523
+      }
+    }, {
+      "uid" : "2011bf383aac3c3f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: label[for='rok-filter-categoryIds-677'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:3125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3125/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fbbee76221cade560e682e5639caa2f6",
+      "time" : {
+        "start" : 1672760148595,
+        "stop" : 1672760203178,
+        "duration" : 54583
+      }
+    }, {
+      "uid" : "f89983cdd67d153e",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3a309ec09712c693f3425f89c738c19f, clickElement {id=22ca02bf-a002-4d9f-b77d-e61925659879}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:2938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:2938/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (3a309ec09712c693f3425f89c738c19f)] -> css selector: button[class =\"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b\"]]\nSession ID: 3a309ec09712c693f3425f89c738c19f",
+      "time" : {
+        "start" : 1672760062146,
+        "stop" : 1672760078238,
+        "duration" : 16092
+      }
+    }, {
+      "uid" : "abc1d2954fbdab7a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: label[for='rok-filter-categoryIds-1321'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:2412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:2412/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c248ad6a70b45c6241a64d63ec73da5f",
+      "time" : {
+        "start" : 1672759826124,
+        "stop" : 1672759883250,
+        "duration" : 57126
+      }
+    }, {
+      "uid" : "a28e18620f0728aa",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1138, 6238)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [17771eac60228af4e832ec691568daad, clickElement {id=6f26c1ce-26f0-403b-aa95-e118677fa3cd}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:3655}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:3655/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (17771eac60228af4e832ec691568daad)] -> css selector: div[class='browse-page'] a:nth-child(4)]\nSession ID: 17771eac60228af4e832ec691568daad",
+      "time" : {
+        "start" : 1672736185314,
+        "stop" : 1672736204275,
+        "duration" : 18961
+      }
+    }, {
+      "uid" : "992be44fff651788",
+      "status" : "broken",
+      "statusDetails" : "class org.openqa.selenium.By$ById cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ById and org.openqa.selenium.WebElement are in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1672736133738,
+        "stop" : 1672736144984,
+        "duration" : 11246
+      }
+    }, {
+      "uid" : "d210b2689f38f433",
+      "status" : "broken",
+      "statusDetails" : "class org.openqa.selenium.By$ById cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ById and org.openqa.selenium.WebElement are in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1672733965041,
+        "stop" : 1672733976578,
+        "duration" : 11537
+      }
+    }, {
+      "uid" : "795c85f72d961d70",
+      "status" : "broken",
+      "statusDetails" : "class org.openqa.selenium.By$ById cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ById and org.openqa.selenium.WebElement are in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1672733854136,
+        "stop" : 1672733866244,
+        "duration" : 12108
+      }
+    }, {
+      "uid" : "3bd74b0e3efffbd1",
+      "status" : "broken",
+      "statusDetails" : "class org.openqa.selenium.interactions.Actions cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.interactions.Actions and org.openqa.selenium.WebElement are in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1672492683229,
+        "stop" : 1672492694721,
+        "duration" : 11492
+      }
+    }, {
+      "uid" : "759f184b2bf70268",
+      "status" : "broken",
+      "statusDetails" : "class org.openqa.selenium.interactions.Actions cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.interactions.Actions and org.openqa.selenium.WebElement are in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1672492658484,
+        "stop" : 1672492670776,
+        "duration" : 12292
+      }
+    }, {
+      "uid" : "d2bc3d169004efb2",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1138, 6264)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ecd644b57797d38486fce0fce954b8b0, clickElement {id=94f46b82-6f67-4b1c-a9a2-6d1f9e82a90a}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8322/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (ecd644b57797d38486fce0fce954b8b0)] -> css selector: div[class='browse-page'] a:nth-child(4)]\nSession ID: ecd644b57797d38486fce0fce954b8b0",
+      "time" : {
+        "start" : 1672491936724,
+        "stop" : 1672491959865,
+        "duration" : 23141
+      }
+    }, {
+      "uid" : "b7c965a84a08b7df",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1138, 6264)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9b0aa8181c883d6557be10e015d25cb4, clickElement {id=c1368582-d217-4197-bdb2-20ad5a18fb9b}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:7595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:7595/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9b0aa8181c883d6557be10e015d25cb4)] -> css selector: div[class='browse-page'] a:nth-child(4)]\nSession ID: 9b0aa8181c883d6557be10e015d25cb4",
+      "time" : {
+        "start" : 1672491354298,
+        "stop" : 1672491379179,
+        "duration" : 24881
+      }
+    }, {
+      "uid" : "7925defae16fe9c7",
+      "status" : "broken",
+      "statusDetails" : "class org.openqa.selenium.By$ById cannot be cast to class org.openqa.selenium.WebElement (org.openqa.selenium.By$ById and org.openqa.selenium.WebElement are in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1672490394663,
+        "stop" : 1672490405958,
+        "duration" : 11295
+      }
+    }, {
+      "uid" : "1f23b3f9432bb46a",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1138, 6210)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [76b9ee74da1e5a5f1ce4919d6aff5329, clickElement {id=9a171c45-711d-4422-9ceb-210859aa59a4}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5310}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5310/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (76b9ee74da1e5a5f1ce4919d6aff5329)] -> css selector: div[class='browse-page'] a:nth-child(4)]\nSession ID: 76b9ee74da1e5a5f1ce4919d6aff5329",
+      "time" : {
+        "start" : 1672490109974,
+        "stop" : 1672490137299,
+        "duration" : 27325
+      }
+    }, {
+      "uid" : "14c56782712ca365",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1138, 6271)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2fbb26a10dee42df609afbdd08f4956a, clickElement {id=14bbe498-f971-4377-a6ed-5c327e6328d3}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5082}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5082/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2fbb26a10dee42df609afbdd08f4956a)] -> css selector: div[class='browse-page'] a:nth-child(4)]\nSession ID: 2fbb26a10dee42df609afbdd08f4956a",
+      "time" : {
+        "start" : 1672490030311,
+        "stop" : 1672490058007,
+        "duration" : 27696
+      }
+    }, {
+      "uid" : "f9336489596e8c53",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/book/author/1?ref=mm_p0'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4983/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5c7669dc19e939cb85c79f53c44b094a",
+      "time" : {
+        "start" : 1672489979981,
+        "stop" : 1672490002004,
+        "duration" : 22023
+      }
+    }, {
+      "uid" : "6aade61a0ee73821",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/book/author/1?ref=mm_p0'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4879/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 204c7855f6eeebc0ccf10f5eb0bae039",
+      "time" : {
+        "start" : 1672489925232,
+        "stop" : 1672489947576,
+        "duration" : 22344
+      }
+    }, {
+      "uid" : "7ff3495b51992b04",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element is not clickable at point (1215, 6264)\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [72d9139407eccd22284025aa8dfa9b63, clickElement {id=f8d606e6-66dc-4269-ba91-c9d176d933ec}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4674}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4674/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (72d9139407eccd22284025aa8dfa9b63)] -> xpath: //a[normalize-space()='Next']]\nSession ID: 72d9139407eccd22284025aa8dfa9b63",
+      "time" : {
+        "start" : 1672489802545,
+        "stop" : 1672489828450,
+        "duration" : 25905
+      }
+    }, {
+      "uid" : "e8108821f59b76ab",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(text(),'হুমায়ূন আহমেদ')] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4489/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 598fe0a970897ce4eb2b7fc34301bb91",
+      "time" : {
+        "start" : 1672489663951,
+        "stop" : 1672489685449,
+        "duration" : 21498
+      }
+    }, {
+      "uid" : "7e5dd1084e5c1be4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/book/author/1?ref=mm_p0'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4376}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4376/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fc318f698e200ad5d7d5e9942c7b03d0",
+      "time" : {
+        "start" : 1672489589264,
+        "stop" : 1672489610663,
+        "duration" : 21399
+      }
+    }, {
+      "uid" : "3c0a5b185e7bc513",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/book/author/1?ref=mm_p0'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4288/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 28b731a9c58fe24e785610609da70cb6",
+      "time" : {
+        "start" : 1672489548563,
+        "stop" : 1672489569795,
+        "duration" : 21232
+      }
+    }, {
+      "uid" : "dd78aa94e31a7f02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672478298529,
+        "stop" : 1672478320443,
+        "duration" : 21914
+      }
+    }, {
+      "uid" : "fe28fb34d8c1db08",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/book/author/1?ref=mm_p0'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:14467}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:14467/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a54aece6e9f5cbcbc9483d3498cb09a1",
+      "time" : {
+        "start" : 1672477852538,
+        "stop" : 1672477873823,
+        "duration" : 21285
+      }
+    }, {
+      "uid" : "5222835c5b89feae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672476012044,
+        "stop" : 1672476031069,
+        "duration" : 19025
+      }
+    }, {
+      "uid" : "a1dff7cdab8eb873",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/book/author/1?ref=mm_p0'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:12816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:12816/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cb80c743c1339efd6d703afa6d42021f",
+      "time" : {
+        "start" : 1672475966615,
+        "stop" : 1672475987918,
+        "duration" : 21303
+      }
+    }, {
+      "uid" : "7cc5a7366a9e34f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672468901791,
+        "stop" : 1672468912791,
+        "duration" : 11000
+      }
+    }, {
+      "uid" : "278908ac3f712469",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672468262411,
+        "stop" : 1672468273197,
+        "duration" : 10786
+      }
+    }, {
+      "uid" : "bd4311c7df1dc441",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: input[name='password'] (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1672468206965,
+        "stop" : 1672468227397,
+        "duration" : 20432
+      }
+    }, {
+      "uid" : "46eac86326a9c244",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"VfPpkd-RLmnJb\"></div> is not clickable at point (1098, 670). Other element would receive the click: <span jsname=\"V67aGc\" class=\"VfPpkd-vQzf8d\">...</span>\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [10ba9d226103ac4feb11f09f134523a8, clickElement {id=d728f304-77f1-4637-942f-0d90ddb1a8c7}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8147}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8147/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (10ba9d226103ac4feb11f09f134523a8)] -> css selector: button[class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b'] div[class='VfPpkd-RLmnJb']]\nSession ID: 10ba9d226103ac4feb11f09f134523a8",
+      "time" : {
+        "start" : 1672467825621,
+        "stop" : 1672467837399,
+        "duration" : 11778
+      }
+    }, {
+      "uid" : "6c00cfe123d4c4f0",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"VfPpkd-RLmnJb\"></div> is not clickable at point (1098, 670). Other element would receive the click: <span jsname=\"V67aGc\" class=\"VfPpkd-vQzf8d\">...</span>\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3e4b84a3fe18411cee5c6301ca918b65, clickElement {id=0fa26968-a1ab-44f6-a954-bd8bcd01bfcf}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6922/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (3e4b84a3fe18411cee5c6301ca918b65)] -> xpath: //button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']//div[@class='VfPpkd-RLmnJb']]\nSession ID: 3e4b84a3fe18411cee5c6301ca918b65",
+      "time" : {
+        "start" : 1672466526384,
+        "stop" : 1672466538225,
+        "duration" : 11841
+      }
+    }, {
+      "uid" : "662e11a08e4ac060",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"VfPpkd-RLmnJb\"></div> is not clickable at point (1098, 670). Other element would receive the click: <span jsname=\"V67aGc\" class=\"VfPpkd-vQzf8d\">...</span>\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [286716d185480bdd6f1f48d3399482e6, clickElement {id=9d058ae7-f1b1-41ae-bfc2-97079348eccb}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6793}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6793/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (286716d185480bdd6f1f48d3399482e6)] -> css selector: button[class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b'] div[class='VfPpkd-RLmnJb']]\nSession ID: 286716d185480bdd6f1f48d3399482e6",
+      "time" : {
+        "start" : 1672466458273,
+        "stop" : 1672466469889,
+        "duration" : 11616
+      }
+    }, {
+      "uid" : "d158fc790e70d6f3",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"VfPpkd-RLmnJb\"></div> is not clickable at point (1098, 670). Other element would receive the click: <span jsname=\"V67aGc\" class=\"VfPpkd-vQzf8d\">...</span>\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [193b21e88c7288955330d96a0292dd11, clickElement {id=59d25338-767c-4305-816e-a641700404fc}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6685}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6685/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (193b21e88c7288955330d96a0292dd11)] -> css selector: button[class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b'] div[class='VfPpkd-RLmnJb']]\nSession ID: 193b21e88c7288955330d96a0292dd11",
+      "time" : {
+        "start" : 1672466388853,
+        "stop" : 1672466400601,
+        "duration" : 11748
+      }
+    }, {
+      "uid" : "8950f6ee07e4b286",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Next'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6572}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6572/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 541a5123af4ca5587f1d2c5e8462efa4",
+      "time" : {
+        "start" : 1672466294206,
+        "stop" : 1672466315411,
+        "duration" : 21205
+      }
+    }, {
+      "uid" : "4ba5da18dae380ab",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Next'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6399/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 55637ce3dc025d0822de2a7f371684aa",
+      "time" : {
+        "start" : 1672466162678,
+        "stop" : 1672466184078,
+        "duration" : 21400
+      }
+    }, {
+      "uid" : "48487aaae0794a1e",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <div class=\"VfPpkd-RLmnJb\"></div> is not clickable at point (1098, 670). Other element would receive the click: <span jsname=\"V67aGc\" class=\"VfPpkd-vQzf8d\">...</span>\n  (Session info: chrome=108.0.5359.125)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5563606ee1792c619d76ebb5209dd02c, clickElement {id=cb507eb8-a786-412f-87cf-449c6933eeb4}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6238}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6238/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (5563606ee1792c619d76ebb5209dd02c)] -> css selector: button[class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b'] div[class='VfPpkd-RLmnJb']]\nSession ID: 5563606ee1792c619d76ebb5209dd02c",
+      "time" : {
+        "start" : 1672466011431,
+        "stop" : 1672466023100,
+        "duration" : 11669
+      }
+    }, {
+      "uid" : "349e2cc728f51f67",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: input[name='password'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6116}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6116/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: dee5e8936765d0da4156842d7ece2130",
+      "time" : {
+        "start" : 1672465908482,
+        "stop" : 1672465928351,
+        "duration" : 19869
+      }
+    }, {
+      "uid" : "2b544131be57ea5e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: li[class='JDAKTe eARute W7Aapd zpCp3 SmR8'] div[role='link'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6025}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6025/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fae0b6475d2e79b5a4a29bdca20b582f",
+      "time" : {
+        "start" : 1672465854479,
+        "stop" : 1672465874167,
+        "duration" : 19688
+      }
+    }, {
+      "uid" : "ff0996faffbf05dd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: li[class='JDAKTe eARute W7Aapd zpCp3 SmR8'] div[role='link'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5815}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5815/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 33e7a3c5651e178ace232ae113124fee",
+      "time" : {
+        "start" : 1672465599544,
+        "stop" : 1672465619316,
+        "duration" : 19772
+      }
+    }, {
+      "uid" : "f5f6ce1ad53de916",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: li[class='JDAKTe eARute W7Aapd zpCp3 SmR8'] div[role='link'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5310}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5310/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: afd75e4dc0728559fb74481fcb1d2746",
+      "time" : {
+        "start" : 1672464838769,
+        "stop" : 1672464858334,
+        "duration" : 19565
+      }
+    }, {
+      "uid" : "84a1a33a6c320196",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: li[class='JDAKTe eARute W7Aapd zpCp3 SmR8'] div[role='link'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8905}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8905/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cc2c6b0e5a46481ad073b91527d433a2",
+      "time" : {
+        "start" : 1672416810364,
+        "stop" : 1672416830442,
+        "duration" : 20078
+      }
+    }, {
+      "uid" : "8d11c4ab665ae2b0",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8794}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8794/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a4801665f066932de75d7da291c05f26",
+      "time" : {
+        "start" : 1672416736675,
+        "stop" : 1672416750063,
+        "duration" : 13388
+      }
+    }, {
+      "uid" : "e7aa34db5ca0367d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:7321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:7321/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2e9896cb6b4a28f9e6cda1ef1ec5253e",
+      "time" : {
+        "start" : 1672413108311,
+        "stop" : 1672413121631,
+        "duration" : 13320
+      }
+    }, {
+      "uid" : "8ef10cc4ea9b8310",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6890/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9089522c9d30c1fb9cd05a8304e58d3d",
+      "time" : {
+        "start" : 1672412663019,
+        "stop" : 1672412676114,
+        "duration" : 13095
+      }
+    }, {
+      "uid" : "38188ca4d670291e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: .js--registration-form-btn.text-uppercase.active (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6777/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9a51ff2ee76fbac7cf615829e1d6c6bb",
+      "time" : {
+        "start" : 1672412586396,
+        "stop" : 1672412604620,
+        "duration" : 18224
+      }
+    }, {
+      "uid" : "24f72318a019217a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='js--registration-form-btn text-uppercase active'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6485}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6485/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6f3756bbb1f256c832b43936dc140fad",
+      "time" : {
+        "start" : 1672412285211,
+        "stop" : 1672412303972,
+        "duration" : 18761
+      }
+    }, {
+      "uid" : "822fbdb9602565e5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='js--registration-form-btn text-uppercase active'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:6281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6281/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 076dd2e1d8736cee763c65b4f26759b1",
+      "time" : {
+        "start" : 1672412047722,
+        "stop" : 1672412066681,
+        "duration" : 18959
+      }
+    }, {
+      "uid" : "a07f41e100f9656d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='js--registration-form-btn text-uppercase active'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:14396}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:14396/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 62a67230cd5ebdd29925757d50118c6f",
+      "time" : {
+        "start" : 1672219476858,
+        "stop" : 1672219493561,
+        "duration" : 16703
+      }
+    }, {
+      "uid" : "2031278610ee6a2c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='js--registration-form-btn text-uppercase active'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:11333}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11333/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e19440124ef4e455f355cb80336a1c5a",
+      "time" : {
+        "start" : 1672209344969,
+        "stop" : 1672209361517,
+        "duration" : 16548
+      }
+    }, {
+      "uid" : "fae10fc51e2a7579",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='js--registration-form-btn text-uppercase active'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:11176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11176/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d702a53d4cbeba69953f7b240b4ae45a",
+      "time" : {
+        "start" : 1672209271358,
+        "stop" : 1672209287860,
+        "duration" : 16502
+      }
+    }, {
+      "uid" : "a7806df5a3977e67",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='js--registration-form-btn text-uppercase active'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:11076}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:11076/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 256c9eab2f3247785c515833922e4255",
+      "time" : {
+        "start" : 1672209189972,
+        "stop" : 1672209206459,
+        "duration" : 16487
+      }
+    }, {
+      "uid" : "d832b44e590dd4e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='js--registration-form-btn text-uppercase active'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:10952}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10952/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b48e18186aee5fd6b00920cc8a7c8b81",
+      "time" : {
+        "start" : 1672209076024,
+        "stop" : 1672209092772,
+        "duration" : 16748
+      }
+    }, {
+      "uid" : "c8ed1b607ca81d8",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='js--registration-form-btn text-uppercase active'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:10715}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10715/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 67036159eae17278eec6200a6933c06c",
+      "time" : {
+        "start" : 1672208507512,
+        "stop" : 1672208525811,
+        "duration" : 18299
+      }
+    }, {
+      "uid" : "c6e7580ded78a0f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //a[normalize-space()='Sign in'] (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1672206709144,
+        "stop" : 1672206880875,
+        "duration" : 171731
+      }
+    }, {
+      "uid" : "71eeffffd8be973a",
+      "status" : "broken",
+      "statusDetails" : "java.util.concurrent.TimeoutException\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [af710c76a3034eb704a4ccca665a3204, get {url=https://www.rokomari.com/book}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8970}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8970/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: af710c76a3034eb704a4ccca665a3204",
+      "time" : {
+        "start" : 1672206473211,
+        "stop" : 1672206653223,
+        "duration" : 180012
+      }
+    }, {
+      "uid" : "71de711fa108a67e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //a[normalize-space()='Sign in'] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1672206367034,
+        "stop" : 1672206462559,
+        "duration" : 95525
+      }
+    }, {
+      "uid" : "86e2f264e0b7d3c4",
+      "status" : "broken",
+      "statusDetails" : "java.util.concurrent.TimeoutException\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e6362d4bb70c154da9ae0ccb943432e8, get {url=https://www.rokomari.com/book}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8670}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8670/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e6362d4bb70c154da9ae0ccb943432e8",
+      "time" : {
+        "start" : 1672206128153,
+        "stop" : 1672206308164,
+        "duration" : 180011
+      }
+    }, {
+      "uid" : "f7f2f013ba0ba0e6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: .js--registration-form-btn.text-uppercase.active (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8296}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8296/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f12004ac7034db37265f9c146a055d46",
+      "time" : {
+        "start" : 1672205854731,
+        "stop" : 1672205938576,
+        "duration" : 83845
+      }
+    }, {
+      "uid" : "7f479a89fc51e9d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='js--registration-form-btn text-uppercase active'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8171}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8171/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c1167285b803335e964b2f69f9ed85f1",
+      "time" : {
+        "start" : 1672205739870,
+        "stop" : 1672205778385,
+        "duration" : 38515
+      }
+    }, {
+      "uid" : "e04facd46226dd20",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: .js--registration-form-btn.text-uppercase.active (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8019}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8019/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eb6b9eea8d3fc0752ab7e4308da89cb7",
+      "time" : {
+        "start" : 1672205625930,
+        "stop" : 1672205664642,
+        "duration" : 38712
+      }
+    }, {
+      "uid" : "650b0cfada46ad1e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //p[@class='js--registration-form-btn text-uppercase active'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:7861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:7861/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5d618fa1979f8bbf77708ec4924728e1",
+      "time" : {
+        "start" : 1672205457279,
+        "stop" : 1672205495061,
+        "duration" : 37782
+      }
+    }, {
+      "uid" : "bc89be7f3acff674",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: .js--registration-form-btn.text-uppercase.active (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:7761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:7761/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f48f824e4acffd05d9835fed1574a999",
+      "time" : {
+        "start" : 1672205385487,
+        "stop" : 1672205423759,
+        "duration" : 38272
+      }
+    }, {
+      "uid" : "f3d526f4cc12f2ba",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.cssSelector: .js--registration-form-btn.text-uppercase.active (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:7633}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:7633/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eda4d7f13395348a98710d31e80e991b",
+      "time" : {
+        "start" : 1672205302996,
+        "stop" : 1672205342293,
+        "duration" : 39297
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed1359f366ccf75d.json",
+  "parameterValues" : [ ]
+}

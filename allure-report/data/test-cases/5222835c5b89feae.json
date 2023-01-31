@@ -1,0 +1,96 @@
+{
+  "uid" : "5222835c5b89feae",
+  "name" : "run",
+  "fullName" : "test.Logintest.run",
+  "historyId" : "18da0b4f6fcfd703d845472607ef5ca0",
+  "time" : {
+    "start" : 1672476012044,
+    "stop" : 1672476031069,
+    "duration" : 19025
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1672476010445,
+      "stop" : 1672476011990,
+      "duration" : 1545
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1672476031075,
+      "stop" : 1672476031259,
+      "duration" : 184
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.Logintest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.Logintest"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.Logintest"
+  }, {
+    "name" : "host",
+    "value" : "EMAD"
+  }, {
+    "name" : "thread",
+    "value" : "12712@EMAD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5222835c5b89feae.json",
+  "parameterValues" : [ ]
+}

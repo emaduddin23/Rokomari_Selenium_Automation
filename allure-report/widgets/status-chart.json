@@ -1,0 +1,51 @@
+[ {
+  "uid" : "2f645ef098a4c3c9",
+  "name" : "quitDriver",
+  "time" : {
+    "start" : 1672206674254,
+    "stop" : 1672206674254,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f733e4a591d16d8",
+  "name" : "HomePageUrl",
+  "time" : {
+    "start" : 1675012217290,
+    "stop" : 1675012252821,
+    "duration" : 35531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f099b54d7ff973f",
+  "name" : "homePageTest",
+  "time" : {
+    "start" : 1675093206284,
+    "stop" : 1675093234686,
+    "duration" : 28402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72c3d80f07d4013d",
+  "name" : "testHomePageUrl",
+  "time" : {
+    "start" : 1674920184257,
+    "stop" : 1674920203549,
+    "duration" : 19292
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed1359f366ccf75d",
+  "name" : "run",
+  "time" : {
+    "start" : 1674923117961,
+    "stop" : 1674923180952,
+    "duration" : 62991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

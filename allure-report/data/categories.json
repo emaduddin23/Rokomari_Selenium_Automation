@@ -1,0 +1,55 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timed out waiting for driver server to stop.\nBuild info: version: '4.4.0', revision: 'e5c75ed026a'\nSystem info: host: 'EMAD', ip: '172.21.96.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [af710c76a3034eb704a4ccca665a3204, quit {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8970}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:8970/devtool..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: af710c76a3034eb704a4ccca665a3204",
+      "children" : [ {
+        "name" : "quitDriver",
+        "uid" : "2f645ef098a4c3c9",
+        "parentUid" : "58b6c27e4d71730ad53f3550726ed882",
+        "status" : "broken",
+        "time" : {
+          "start" : 1672206674254,
+          "stop" : 1672206674254,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58b6c27e4d71730ad53f3550726ed882"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [https://www.daraz.com.bd/] but found [https://www.rokomari.com/book]",
+      "children" : [ {
+        "name" : "testHomePageUrl",
+        "uid" : "72c3d80f07d4013d",
+        "parentUid" : "f8e5fe99350a59bd69e1fb23e803bb4a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1674920184257,
+          "stop" : 1674920203549,
+          "duration" : 19292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8e5fe99350a59bd69e1fb23e803bb4a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

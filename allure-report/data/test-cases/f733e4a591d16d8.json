@@ -1,0 +1,131 @@
+{
+  "uid" : "f733e4a591d16d8",
+  "name" : "HomePageUrl",
+  "fullName" : "test.Home_test.HomePageUrl",
+  "historyId" : "f1d144251226c089556eeab2490f4883",
+  "time" : {
+    "start" : 1675012217290,
+    "stop" : 1675012252821,
+    "duration" : 35531
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1675012213946,
+      "stop" : 1675012217236,
+      "duration" : 3290
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "640e6a090ee00ce1",
+      "name" : "HomePage",
+      "source" : "640e6a090ee00ce1.png",
+      "type" : "image/png",
+      "size" : 1150083
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1675012252827,
+      "stop" : 1675012253455,
+      "duration" : 628
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.Home_test"
+  }, {
+    "name" : "testClass",
+    "value" : "test.Home_test"
+  }, {
+    "name" : "testMethod",
+    "value" : "HomePageUrl"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.Home_test"
+  }, {
+    "name" : "host",
+    "value" : "EMAD"
+  }, {
+    "name" : "thread",
+    "value" : "4716@EMAD.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b58710031f05cff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674920282540,
+        "stop" : 1674920319953,
+        "duration" : 37413
+      }
+    }, {
+      "uid" : "4713f522985dadd5",
+      "status" : "failed",
+      "statusDetails" : "expected [https://www.daraz.com.bd/] but found [https://www.rokomari.com/book]",
+      "time" : {
+        "start" : 1674920242655,
+        "stop" : 1674920260079,
+        "duration" : 17424
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f733e4a591d16d8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,106 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default suite",
+    "children" : [ {
+      "name" : "Default test",
+      "children" : [ {
+        "name" : "test.Logintest",
+        "children" : [ {
+          "name" : "quitDriver",
+          "uid" : "2f645ef098a4c3c9",
+          "parentUid" : "f55aff63479faa633c4eace1216c0751",
+          "status" : "broken",
+          "time" : {
+            "start" : 1672206674254,
+            "stop" : 1672206674254,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "run",
+          "uid" : "ed1359f366ccf75d",
+          "parentUid" : "f55aff63479faa633c4eace1216c0751",
+          "status" : "passed",
+          "time" : {
+            "start" : 1674923117961,
+            "stop" : 1674923180952,
+            "duration" : 62991
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 142,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f55aff63479faa633c4eace1216c0751"
+      }, {
+        "name" : "test.Home_test",
+        "children" : [ {
+          "name" : "testHomePageUrl",
+          "uid" : "72c3d80f07d4013d",
+          "parentUid" : "affcebbca234341ef7127c1501d6087a",
+          "status" : "failed",
+          "time" : {
+            "start" : 1674920184257,
+            "stop" : 1674920203549,
+            "duration" : 19292
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "HomePageUrl",
+          "uid" : "f733e4a591d16d8",
+          "parentUid" : "affcebbca234341ef7127c1501d6087a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1675012217290,
+            "stop" : 1675012252821,
+            "duration" : 35531
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "homePageTest",
+          "uid" : "5f099b54d7ff973f",
+          "parentUid" : "affcebbca234341ef7127c1501d6087a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1675093206284,
+            "stop" : 1675093234686,
+            "duration" : 28402
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "affcebbca234341ef7127c1501d6087a"
+      } ],
+      "uid" : "848117670d75f6868e681771989ad50e"
+    } ],
+    "uid" : "2c8837b97293ea01a164a5cd7048ad56"
+  } ]
+}
